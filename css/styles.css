@@ -273,7 +273,7 @@ position: relative;
 overflow: hidden;
 }
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
+@media (min-width: 424px) and (max-width: 767px) {
   /* Header */
   .navbar-brand {
     padding-top: 10px;
@@ -355,7 +355,7 @@ overflow: hidden;
 }
 
 }
-@media (max-width: 479px) {
+@media (max-width: 423px) {
 #menu-tile, #specials-tile {
   width: 280px;
   margin: 0 auto 15px;
